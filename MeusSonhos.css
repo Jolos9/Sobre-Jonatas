@@ -1,0 +1,290 @@
+*{
+    margin:0 auto;
+}
+
+body{
+    background-color: #2b4855;
+}
+
+header, footer {
+    background-color: #5691aa;
+}
+
+div#HD1{
+    padding-top: 3vw;
+    background-color: #2b4855;
+}
+
+header a {
+    color: black;
+    font-size: 3.5vw;
+}
+
+a{
+    text-decoration: none;
+    font-size: 7vw;
+    color: black;
+}
+
+main{
+    background-color: #81d9ff;
+    margin: 1.5vw;
+
+}
+
+P{
+    font-size: 2.5vw;
+    padding-left: 2vw;
+}
+
+i{
+    font-size: 6vw;
+    padding-left: 10vw;
+}
+
+a{
+    text-decoration:none;
+}
+
+header img {
+    width:20%;
+    margin: 0.5vw;
+    border-radius: 0.5vw;
+    border: 0.2vw #6093a8 solid
+}
+
+img#IMG2{
+    height: 6vw;
+    width: 6vw;
+    padding-top: 1vw;
+}
+
+header a {
+    color: black;
+    font-size: 3.5vw;
+}
+
+footer{
+    flex-direction: column;
+}
+
+div#f2 {
+    background-color: #5691aa;
+    width: 100%;
+    border-top: solid #9aff81 1px;
+}
+
+div#f1 p {
+    font-size: 6vw;
+}
+
+div#f1 {
+    display: flex;
+    flex-direction: row;
+}
+
+div#f2 p {
+    font-size: 3vw;
+}
+
+div#f2{
+    flex-direction: row;
+    display:flex;
+}
+
+div#f2 a {
+    font-size: 3vw;
+    color: black;
+}
+
+#sd {
+    height: 2vw;
+    width: 2vw;
+    transform: rotate(90deg);
+}
+
+footer div#f2 div a:hover, header nav a:hover{
+    color: white;
+}
+
+img.seguir{
+    width: 5vw;
+    height: 5vw;
+    padding-top: 1vw;
+}
+
+div#teste{
+    padding-top: 2.5vw;
+    width: 30%;
+    padding-left: 10vw;
+}
+
+nav{
+    display: flex;
+}
+
+div.menu{
+    position: absolute;
+    background-color: black;
+    visibility: hidden;
+    width: 20%;
+    margin-left: 79vw;
+    margin-top: 7vw;
+    border-radius: 10px;
+}
+
+div.menu a{
+    font-size: 3vw;
+    color: white;
+}
+
+a#Amenu{
+    padding-right: 12vw;
+    border-bottom: #5691aa 0.1vw solid;
+}
+
+a#Asobremim{
+    padding-right: 5vw;
+    border-bottom: #5691aa 0.1vw solid;
+}
+
+a#Acontato{
+    padding-right: 9vw;
+    border-bottom: #5691aa 0.1vw solid;
+}
+
+a#Adoacoes{
+    padding-right: 8.5vw;
+    border-bottom: #5691aa 0.1vw solid;
+}
+
+a#Acolaboradores{
+    border-bottom: none none none;
+}
+
+header a:hover{
+    animation-name:MaisMenos-header;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes MaisMenos-header{
+    0% {font-size: 3.5vw;}
+    20% {font-size: 3.7vw;}
+    40% {font-size: 3.9vw;}
+    60% {font-size: 3.9vw;}
+    80% {font-size: 3.7vw;}
+    100% {font-size: 3.5vw;}
+}
+
+div#f2 a:hover{
+    animation-name:MaisMenos-f2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes MaisMenos-f2{
+    0% {font-size: 3vw;}
+    20% {font-size: 3.2vw;}
+    40% {font-size: 3.4vw;}
+    60% {font-size: 3.4vw;}
+    80% {font-size: 3.2vw;}
+    100% {font-size: 3vw;}
+}
+
+div.menu a:hover{
+    animation-name:MaisMenos-menu;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes MaisMenos-menu{
+    0% {font-size: 3vw;}
+    20% {font-size: 3.1vw;}
+    40% {font-size: 3.15vw;}
+    60% {font-size: 3.15vw;}
+    80% {font-size: 3.1vw;}
+    100% {font-size: 3vw;}
+}
+
+div#mudalingua {
+    position: absolute;
+    visibility: hidden;
+    margin-left: 15vw;
+    background-color: black;
+    border-radius: 10px;
+}
+
+div#mudalingua a{
+    text-decoration: none;
+    color: white;
+    font-size: 3vw;
+    border-bottom: #5691aa 0.1vw solid;
+}
+
+#IMG2:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width:600px){
+    div.menu a{
+        font-size: 20px;
+    }
+    div.menu a:hover, div#f2 a:hover, header a:hover{
+        animation: none;
+    }
+
+    img#JMC{
+        width: 140px;
+    }
+
+    img#IMG2{
+        width: 60px ;
+        height: 60px;
+    }
+
+    div#mudalingua a{
+        font-size: 20px;
+    }
+
+    i{
+        font-size: 40px;
+    }
+
+    a.click{
+        font-size: 30px;
+    }
+
+    p#tit{
+        font-size: 35px;
+    }
+    p{
+        font-size:30px;
+        padding-bottom: 8vw;
+    }
+
+    p#P2{
+        font-size: 18px;
+    }
+
+    a{
+        font-size: 60px; 
+    }
+
+    nav a{
+        font-size: 30px;
+    }
+
+    div#f2 p{
+        padding-top: 5px;
+        font-size: 19px;
+    }
+
+    div#f2 a{
+        font-size: 40px;
+    }
+
+    div#meucarousel2{
+        margin-left: 200px;
+    }
+}
